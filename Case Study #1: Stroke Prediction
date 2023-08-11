@@ -1,0 +1,14 @@
+Case Study #1: Stroke Prediction 
+Link: https://www.kaggle.com/code/jasonforst/case-study-1-stroke-prediction/notebook
+
+Healthcare Data Analysis for Stroke Prediction: A Comprehensive Study
+
+In this project, the primary objective was to explore a healthcare dataset to predict the likelihood of stroke occurrence in patients. The dataset encompassed a diverse array of factors, including age, hypertension, heart disease, marital status, work type, residence type, average glucose level, BMI, smoking status, and gender, all of which play significant roles in influencing stroke risk. Each patient's record provided valuable insights into these risk factors, contributing to the overarching goal of accurate stroke prediction.
+
+The dataset was meticulously prepared, with missing values addressed, categorical variables converted into dummy indicators, and class imbalance handled. This rigorous data preparation set the stage for in-depth analysis. Exploratory data analysis (EDA) provided crucial insights into feature distributions and potential relationships between various attributes and stroke occurrences.
+
+The heart of the project lay in the utilization of Logistic Regression as a predictive tool. Leveraging the potency of this technique, the model aimed to enhance accuracy and predictive capabilities. Sector-specific knowledge further informed the analysis, with age, hypertension, heart disease, marital status, work type, residence type, glucose levels, BMI, smoking status, and gender all considered as vital indicators of stroke risk. For instance, the impact of age on stroke risk was highlighted, with a doubling of risk each decade past 55.
+
+The categorical variables analysis provided intriguing insights. While a higher proportion of female patients existed, males exhibited a slightly higher incidence of strokes, and the "Other" gender category showed no stroke cases due to limited representation. Additionally, hypertension and heart disease demonstrated clear correlations with increased stroke risk. Marital status and work type also showcased significant associations with stroke occurrences, with self-employed and privately employed individuals showing elevated risk. Residence type demonstrated a near-equal stroke risk between urban and rural residents. Smoking status further emphasized the role of lifestyle, with former and current smokers exhibiting higher stroke proportions.
+
+The project's trajectory was now set to delve deeper into the association between the target variable "stroke" and other variables. Employing count plots for categorical variables and box/violin plots for continuous ones, this next phase promised a comprehensive understanding of these relationships. In conclusion, this project's systematic analysis of diverse factors and meticulous modeling lays the groundwork for informed stroke prediction and effective preventive strategies.
